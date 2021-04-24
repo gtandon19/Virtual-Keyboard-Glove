@@ -1,8 +1,8 @@
-int fsrPin = 0;     // the FSR and 10K pulldown are connected to a0
+int fsrPin = 1;     // the FSR and 10K pulldown are connected to a0
 int fsrReading;
 const int motorpin = 7;
 
-const int flexPin = A1;
+const int flexPin = A0;
 
 void setup() {
   // put your setup code here, to run once:
